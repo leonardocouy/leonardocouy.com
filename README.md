@@ -25,5 +25,9 @@ make devserver
 **Publish to github**
 
 ```
-make github
+ghp-import output -b master
+```
+
+```
+git push origin master
 ```
