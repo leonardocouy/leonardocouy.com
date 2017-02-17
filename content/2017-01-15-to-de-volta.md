@@ -1,9 +1,11 @@
 title: Tô de volta!
-date: 2017-02-09 12:00
+date: 2017-02-15 07:00
 author: Leonardo Flores
 category: off
 tags: inicio, blog
 slug: to-de-volta
+
+![](/theme/img/esse-e-meu-problema.jpg)
 
 Finalmente, de volta com o meu Blog! acabei perdendo os meus conteúdos passados pois o meu blog era hospedado utilizando o Wordpress e, devido a correria e a falta de tempo para dedicar ao blog, acabei deixando ser excluído!
 

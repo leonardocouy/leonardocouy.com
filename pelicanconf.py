@@ -6,7 +6,7 @@ THEME = "theme/"
 AUTHOR = 'Leonardo Flores'
 SITENAME = 'Leonardo Flores'
 SITETITLE = 'Leonardo Flores'
-SITESUBTITLE = 'Knowledge Hunter'
+SITESUBTITLE = 'B.Sc in Information Systems, Full-stack & Nutella Developer and Knowledge Hunter.'
 SITEDESCRIPTION = 'Blog about dev guides and tools.'
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
@@ -32,7 +32,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Contact', ''),)
+# LINKS = (('Contact', ''),)
 
 # Social widget
 SOCIAL = (('facebook', 'https://facebook.com/leonardo.claw/'),
@@ -42,10 +42,18 @@ SOCIAL = (('facebook', 'https://facebook.com/leonardo.claw/'),
           ('rss', '//leonardocouy.com/feeds/all.atom.xml'))
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
 
 STATIC_PATHS = ['images', 'extra/CNAME', 'static']
 
 EXTRA_PATH_METADATA = {
-    'extra/CNAME': {'path': 'CNAME'},
+    'extra/custom.css': {'path': 'static/custom.css'},
+    'extra/CNAME': {'path': 'CNAME'}
 }
+
+CUSTOM_CSS = 'theme/custom.css'
+
+ARTICLE_URL = '{slug}/'
+ARTICLE_SAVE_AS = '{slug}/index.html'
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
